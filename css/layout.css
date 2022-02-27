@@ -1,0 +1,24 @@
+/* this style page is responsible for each layout of the three pages we have  
+(index,blog_post and blog_home)*/ 
+
+/* this styling are for mobile device */ 
+
+
+
+
+
+
+
+/* this media query is for tablets */ 
+@media (min-device-width:768px) and (max-device-width: 1024px)
+{
+
+}
+
+
+
+/* this media query  is for laptops */
+@media (min-device-width: 1200px)
+{
+
+}

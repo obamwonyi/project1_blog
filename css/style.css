@@ -1,0 +1,12 @@
+/* this is the root css file, from which we will import other files . */ 
+
+
+
+
+
+
+/* other css files import */ 
+@import url("./layout.css");
+@import url("./blog_home_styling.css");
+@import url("./blog_post_styling.css");
+/* --------------------------------------------------*/
