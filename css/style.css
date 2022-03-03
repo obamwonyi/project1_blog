@@ -1,12 +1,13 @@
 /* this is the root css file, from which we will import other files . */ 
 
-
+* 
+{
+    margin: 0%; 
+    padding: 0%;
+}
 
 
 
 
 /* other css files import */ 
-@import url("./layout.css");
-@import url("./blog_home_styling.css");
-@import url("./blog_post_styling.css");
-/* --------------------------------------------------*/
+/* like background image if needed */
