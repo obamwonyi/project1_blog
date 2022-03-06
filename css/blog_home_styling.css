@@ -1,0 +1,45 @@
+/* importing the layout page for header 
+and footer styling 
+*/
+@import url("./layout.css");
+
+/* 
+
+the classes in this css file (blog_home_styling_css)  will be preceeded with the abreviation of b_h 
+
+
+*/
+
+/*<MOBILE> :  this styling are for mobile device ---------*/ 
+
+
+@media (min-device-width:0px) and (max-device-width: 599px)
+{
+
+    .b_h_section 
+    {
+        width: 90%;
+        margin: auto;
+        padding: 10px 0px 10px 0px;
+    }
+
+    .b_h_section div 
+    {
+        margin-bottom: 20px;
+    }
+
+    .b_h_section_footer 
+    {
+        display: flex;
+        height: 50px;
+        width: 100%;
+        justify-content: right;
+    }
+
+
+
+
+}
+
+/*</MOBILE> : end of mobile styling ------------------*/
+

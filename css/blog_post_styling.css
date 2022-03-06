@@ -1,0 +1,62 @@
+
+
+
+/* importing the layout page so we will not 
+need to style our header and footer again */ 
+@import url(./layout.css);
+
+/* 
+every class will be preceeded with the abreviation b_p 
+so as to differentiate it from other styling . 
+
+*/
+
+
+
+/*<MOBILE> :  this styling are for mobile device ---------*/ 
+
+
+@media (min-device-width:0px) and (max-device-width: 599px)
+{
+
+    .b_p_header 
+    {
+        border-top: 0px;
+        border-right: 0px;
+        border-left: 0px;
+        border-bottom: 2px solid black;
+    }
+    
+    
+    
+    .b_p_body 
+    {
+        height: 90%;
+        width: 90%;
+        margin: auto;
+    }
+    
+    
+    
+    .submit_button  
+    {
+        background-color: black;
+        padding: 6px;
+        border-radius: 25px;
+        color: white;
+        font-weight: bold;
+        box-shadow: 1px 1px 1px rgba(0,0,0,0.9);
+    }
+    
+
+
+
+}
+
+/*</MOBILE> : end of mobile styling ------------------*/
+
+
+
+
+
+
