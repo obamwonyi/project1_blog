@@ -56,7 +56,117 @@ so as to differentiate it from other styling .
 /*</MOBILE> : end of mobile styling ------------------*/
 
 
+/*<TABLET> : this section is for the tablet styling ---------___*/
+
+@media (min-device-width:600px) and (max-device-width: 1024px)
+{
+
+
+    .b_p_header 
+    {
+        border-top: 0px;
+        border-right: 0px;
+        border-left: 0px;
+        border-bottom: 2px solid black;
+    }
+    
+    
+    .b_p_textarea 
+    {
+        width: 90%;
+        margin: auto;
+        height: 100px;
+        padding: 10px;
+        /*box-shadow: 1px 1px 1px rgba(0,0,0,0.9);*/
+    }
+
+    .card_footer > div 
+    {
+        margin-bottom: 20px;
+    }
+    
+    .submit_button  
+    {
+        background-color: #A8EB12;
+        padding: 6px;
+        border-radius: 25px;
+        color: white;
+        font-weight: bold;
+        box-shadow: 1px 1px 1px rgba(0,0,0,0.9);
+        text-decoration: none;
+    }
+
+}
 
 
 
 
+
+/*</TABLET> : end of tablet styling ----------------------------------*/
+
+
+/* <LAPTOP> : this section is for laptops -------------------------*/ 
+
+@media (min-device-width: 1200px)
+{
+
+    .b_p_header
+    {
+        border-top: 0px;
+        border-bottom: 2px solid black;
+        border-right: 0px;
+        border-left: 0px;
+    }
+
+    .submit_button
+    {
+        /*flex: 1;*/
+        margin-top: 10px;
+        border-radius: 25px;
+        padding: 10px;
+        background-color:#A8EB12 ;
+        text-decoration: none;
+        color: white;
+    }
+    
+  /*  .card_footer > div > input 
+    {
+        flex: 1;
+    }
+    */
+
+    .card_footer
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-bottom: 10px;
+    }
+
+    .card_header
+    {
+        margin-top: 10px;
+        align-items: center;
+    }
+
+
+    .b_p_textarea
+    {
+        width: 90%;
+        margin:auto;
+        height: 100px;
+        padding: 5px;
+    }
+
+    .card 
+    {
+        padding: 10px;
+    }
+
+
+
+}
+
+
+
+/*</LAPTOP> : end of laptop section ----------------------------------------*/
