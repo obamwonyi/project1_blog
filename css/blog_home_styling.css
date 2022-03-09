@@ -3,6 +3,31 @@ and footer styling
 */
 @import url("./layout.css");
 
+
+/* universal styling */ 
+.school_list 
+{
+    list-style-type:disc;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+p 
+{
+    font-weight: bold;
+    line-height: 30px;;
+}
+
+h3 
+{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+
+
+
 /* 
 
 the classes in this css file (blog_home_styling_css)  will be preceeded with the abreviation of b_h 
@@ -11,6 +36,7 @@ the classes in this css file (blog_home_styling_css)  will be preceeded with the
 */
 
 /*<MOBILE> :  this styling are for mobile device ---------*/ 
+
 
 
 @media (min-device-width:0px) and (max-device-width: 599px)
