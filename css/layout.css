@@ -1,6 +1,14 @@
 /* this style page is responsible for each layout of the three pages we have  
 (index,blog_post and blog_home)*/ 
 
+
+/* general styling */ 
+.card_body > p 
+{
+    font-weight: bold;
+}
+
+
 /*<MOBILE> :  this styling are for mobile device ---------*/ 
 
 @media (min-device-width:0px) and (max-device-width: 599px)

@@ -24,6 +24,12 @@ h3
     margin-top: 20px;
 }
 
+blockquote 
+{
+    font-style: italic;
+    font-weight: bold;
+}
+
 
 
 
