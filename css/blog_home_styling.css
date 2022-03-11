@@ -4,6 +4,14 @@ and footer styling
 @import url("./layout.css");
 
 
+
+
+.b_h_section_footer > p
+{
+    font-size: 15px;
+}
+
+
 /* universal styling */ 
 .school_list 
 {

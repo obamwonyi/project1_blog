@@ -1,0 +1,194 @@
+/* this media query  is for laptops */
+@media (min-device-width: 1200px)
+{
+
+    body
+    {
+        background-color:#FEFEDF ;
+    }
+    .container 
+    {
+        background-color:#FEFEDF;
+        width: 95vw;
+        margin: auto;
+       
+    }
+
+
+    body
+    {
+        font-family: 'Roboto', sans-serif;
+   
+    }    
+
+
+
+
+    /* <TABLET> -------------------------------------------*/ 
+
+    /* tablet header styling -------------------*/
+    .header 
+    {
+        display: flex;
+        background-color:black;
+        color:white;
+        width: 100%;
+        border-radius: 5px;
+
+    }
+
+    /* targetting the list inside the header class only */
+    .header > h1 
+    {
+        flex: 1.5;
+        padding: 10px;
+    }
+
+    .header > ul  
+    {
+        padding: 10px;
+        list-style-type: none;
+        display: flex;
+        flex: 2.5;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    .header > ul > li > a 
+    {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+    }
+
+
+
+    /* tablet section styling --------------------*/ 
+    .section
+    {
+        display: flex;
+        width: 100%;
+        height: fit-content;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-radius: 6px;
+        box-shadow: 5px 5px 15px  rgba(0,0,0,0.9);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        
+    }
+
+    .card_body 
+    {
+ /*       width: 90%;
+        margin: auto;*/
+    }
+
+    .blog_page 
+    {
+        background-color: #A8EB12;
+        padding: 6px;
+        border-radius: 25px;
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    .twitter_handle
+    {
+        margin-bottom: 20px;
+    }
+
+    .twitter_handle > a >  img 
+    {
+        width: 24px;
+        height: 25px;
+    }
+
+
+    .card 
+    {
+        flex: 1;
+        background-color: #FEFEDF;
+        display: grid;
+        margin: auto;
+        height: fit-content;
+        margin-left: 10px;
+        margin-right: 10px;
+        grid-template-areas: 50px;
+        grid-template-rows: 50px 150px 80px;
+        grid-template-areas: "card_header" "card_body" "card_footer";
+        /*border: 2px solid black;*/
+        border-radius: 6px;
+        /*box-shadow: 5px 5px 15px  rgba(0,0,0,0.9);*/
+        border: 1px solid  black;
+        text-align: center;
+        align-self: center;
+    }
+
+    .card:hover 
+    {
+        box-shadow: 5px 5px 15px  rgba(0,0,0,0.9);
+    }
+
+
+
+    /* tablet  footer styling -------------------*/
+
+
+    .footer 
+    {
+
+        /*border-bottom:2px solid #A8EB12;*/
+        border-top: 2px solid black;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        height: 120px;
+   
+    }
+
+    .footer .social_icons 
+    {
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        margin: auto;
+        justify-content: space-around;
+    }
+
+    .footer .social_icons li 
+    {
+        list-style-type: none;
+   
+    }
+
+    .footer .social_icons a 
+    {
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+
+    }
+
+    .footer .social_icons img 
+    {
+        /*border-radius: 50%;*/
+        width: 35px;
+        height: 35px;
+    }
+
+    .footer .copy_right 
+    {
+        width: 80%;
+        margin: auto;
+        font-size: 14px;
+        color:black;
+        text-align: center;
+
+
+    }
+}
+
+/* -------------------------------------------------*/

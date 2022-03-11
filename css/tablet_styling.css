@@ -1,0 +1,171 @@
+@media (min-device-width:600px) and (max-device-width: 1024px)
+{
+
+
+    .container 
+    {
+        background-color:#FEFEDF;
+        width: 95vw;
+        margin: auto;
+       
+    }
+
+
+    body
+    {
+        font-family: 'Roboto', sans-serif;
+   
+    }    
+
+
+
+
+    /* <TABLET> -------------------------------------------*/ 
+
+    /* tablet header styling -------------------*/
+    .header 
+    {
+        display: flex;
+        background-color: #A8EB12;
+        color:white;
+        width: 100%;
+        border-radius: 5px;
+
+    }
+
+    /* targetting the list inside the header class only */
+    .header > h1 
+    {
+        flex: 1.5;
+        padding: 10px;
+    }
+
+    .header > ul  
+    {
+        padding: 10px;
+        list-style-type: none;
+        display: flex;
+        flex: 2.5;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    .header > ul > li > a 
+    {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+    }
+
+
+
+    /* tablet section styling --------------------*/ 
+    .section
+    {
+        margin: 10px;
+    }
+
+    .card_body 
+    {
+        width: 90%;
+        margin: auto;
+    }
+
+    .blog_page 
+    {
+        background-color: #A8EB12;
+        padding: 6px;
+        border-radius: 25px;
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    .twitter_handle
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .card 
+    {
+        background-color: #FEFEDF;
+        display: grid;
+        width: 90%;
+        margin: auto;
+        height: 35vh;
+        margin-bottom: 10px;
+        grid-template-areas: 100px;
+        grid-template-rows: 50px 150px 50px;
+        grid-template-areas: "card_header" "card_body" "card_footer";
+        /*border: 2px solid black;*/
+        border-radius: 6px;
+        box-shadow: 5px 5px 15px  rgba(0,0,0,0.9);
+        text-align: center;
+    }
+
+
+
+    /* tablet  footer styling -------------------*/
+
+
+    .footer 
+    {
+
+        border-bottom:2px solid #A8EB12;
+        border-top: 2px solid #A8EB12;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        height: 120px;
+   
+    }
+
+    .footer .social_icons 
+    {
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        margin: auto;
+        justify-content: space-around;
+    }
+
+    .footer .social_icons li 
+    {
+        list-style-type: none;
+   
+    }
+
+    .footer .social_icons a 
+    {
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+
+    }
+
+    .footer .social_icons img 
+    {
+        /*border-radius: 50%;*/
+        width: 35px;
+        height: 35px;
+    }
+
+    .footer .copy_right 
+    {
+        width: 80%;
+        margin: auto;
+        font-size: 14px;
+        color:black;
+        text-align: center;
+
+
+    }
+
+
+    /* </TABLET> end of tablet styling --------------------------*/
+
+
+
+}

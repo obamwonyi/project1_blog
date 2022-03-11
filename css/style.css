@@ -6,6 +6,30 @@
     padding: 0%;
 }
 
+p 
+{
+    font-weight: bold;
+}
+
+.authors_img 
+{
+
+    width: 100px;
+    height:200px;
+}
+
+.general_div_class 
+{
+    padding: 1px;
+}
+
+.general_section_class
+{
+    padding:10px;
+}
+
+
+
 
 
 
